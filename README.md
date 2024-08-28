@@ -2,6 +2,10 @@
 Imagine you are working for DoorDash and the data falls on S3 on a daily basis. You are asked by your lead to process and filter only data that has "status = delivered" to a pandas DataFrame as soon as the data lands on the landing zone. This is what Lambda solves by making it event-driven and also notifies us using SNS!
 
 ## Architecture
+![S3 to Lambda Architecture](https://github.com/user-attachments/assets/d16785b4-1eea-471e-a361-95e4a712b462)
+
+
+
 ### S3
 There are 2 buckets in S3 that does their respective part:
 - doordash-data-landing-zn: has the raw unprocessed file
